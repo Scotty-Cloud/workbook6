@@ -15,3 +15,7 @@
 //   }
 // }
 
+//* example 2
+function checkAlive(health) {
+    return health > 0;
+  }
