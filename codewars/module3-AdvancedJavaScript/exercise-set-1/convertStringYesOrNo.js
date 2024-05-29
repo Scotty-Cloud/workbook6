@@ -8,3 +8,6 @@ function boolToWord( bool ){
       return "No";
   }
 }
+
+let isBool = true;
+console.log(isBool)

@@ -5,7 +5,7 @@ import re
 
 def is_digit(s):
     # Regular expression pattern for a floating point number
-    pattern = r'-?\d+(\.\d+)?'
+    pattern = r'^-?(0|[1-9]\d*)(\.\d+)?$'
     
     # Check if the string matches the pattern
     if re.match(pattern, s):
