@@ -13,3 +13,5 @@ code wars & algorithms
   - Common algorithms
   - Mathematical Algorithms
   - Traveling Salesman problem
+- Group collaboration
+  - Mob coding
