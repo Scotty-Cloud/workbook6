@@ -20,4 +20,6 @@ function bubbleSort(arr) {
 
 let arr = [5, 2, 8, 3, 1, 6, 4];
 
-console.log(`Sorted array: [${bubbleSort(arr)}]`);
+console.log(`Unsorted array: [${arr}]`); // [5,2,8,3,1,6,4]
+
+console.log(`Sorted array: [${bubbleSort(arr)}]`); // [1,2,3,4,5,6,8]

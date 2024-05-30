@@ -13,4 +13,6 @@ function insertionSort(array) {
 
 let arr = [9, 2, 5, 3, 25, 19, 4];
 
-console.log(`Sorted array: [${insertionSort(arr)}]`);
+console.log(`Unsorted array: [${arr}]`); // [9,2,5,3,25,19,4]
+
+console.log(`Sorted array: [${insertionSort(arr)}]`); // [2,3,4,5,9,19,25]

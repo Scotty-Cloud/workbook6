@@ -13,6 +13,6 @@ function selectionSort(array) {
 
 const arr = [64, 25, 12, 22, 11];
 
-console.log(`Unsorted array: ${arr}`);
-arraySorted = selectionSort(arr);
-console.log(`Sorted array: ${arraySorted}`);
+console.log(`Unsorted array: [${arr}]`); // [64, 25, 12, 22, 11];
+
+console.log(`Sorted array: [${selectionSort(arr)}]`); // [11,12,22,25,64];
