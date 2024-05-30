@@ -13,9 +13,10 @@ function selectionSort(array) {
 }
 
 const arr = [64, 25, 12, 22, 11];
-console.log("Unsorted array: ", arr);
-arr = selectionSort(arr);
-console.log("Sorted array: ", arr);
+
+console.log(`Unsorted array: ${arr}`);
+arraySorted = selectionSort(arr);
+console.log(`Sorted array: ${arraySorted}`);
 ```
 **1. Outer Loop** 
 ```js

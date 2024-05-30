@@ -47,6 +47,6 @@ while (j >= 0 && array[j] > key) {
 
 **use case example**
 
-```const arr = [4, 3, 2, 10, 12, 1, 5, 6];
-console.log(insertionSort(arr)); // [1, 2, 3, 4, 5, 6, 10, 12]
+```let arr = [9, 2, 5, 3, 25, 19, 4];
+console.log(`Sorted array: [${insertionSort(arr)}]`); // [2,3,4,5,9,19,25]
 ```

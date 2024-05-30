@@ -4,5 +4,5 @@
 
 def quarter_of(month):
     return(month -1) // 3 + 1
-quarter = quarter_of(2)
+quarter = quarter_of(12)
 print(quarter) 

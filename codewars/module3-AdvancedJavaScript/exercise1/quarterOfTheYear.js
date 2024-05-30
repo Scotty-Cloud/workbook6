@@ -6,5 +6,5 @@ const quarterOf = (month) => {
   return Math.floor((month - 1) / 3) + 1;
 };
 
-let quarter = quarterOf(2);
+let quarter = quarterOf(12);
 console.log(quarter)
