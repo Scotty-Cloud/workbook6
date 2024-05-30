@@ -11,6 +11,7 @@ code wars & algorithms
     - comparing syntax
 - Algorithms
   - Common algorithms
+    - bubble sort, insertion sort, selection sort
   - Mathematical Algorithms
   - Traveling Salesman problem
 - Group collaboration
