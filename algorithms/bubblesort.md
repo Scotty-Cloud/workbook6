@@ -43,8 +43,8 @@ In each iteration, the loop will iterate n-i-1 times, where i is the current ite
 for (let j = 0; j < n - i - 1; j++)
 ```
 
-The inner loop compares adjacent elements arr[j] and arr[j + 1].
-If arr[j] is greater than arr[j + 1], the elements are swapped using a temporary variable temp.
+The inner loop compares adjacent elements arr[j] and `arr[j + 1]`.
+If arr[j] is greater than `arr[j + 1]`, the elements are swapped using a temporary variable temp.
 The swapped variable is set to true to indicate that a swap was made.
 
 **4: Check for swaps**
