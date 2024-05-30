@@ -9,4 +9,4 @@ function findAverage(array) {
     sum += array[i];
   }
   return sum / array.length;
-}``
+}
