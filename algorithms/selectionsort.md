@@ -57,7 +57,7 @@ Let's take the example array [64, 25, 12, 22, 11] and walk through the sorting p
 **1.** `i = 0, minIndex = 0`
 - Inner loop: j = 1, array[1] = 25 is smaller than array[0] = 64, so minIndex = 1.
 - Swap: array[0] = 25, array[1] = 64
-- Array: [25, 64, 12, 22, 11]
+- Array: `[25, 64, 12, 22, 11]`
 
 **2.** `i = 1, minIndex = 1`
 - Inner loop: j = 2, array[2] = 12 is smaller than array[1] = 64, so minIndex = 2.
@@ -72,7 +72,7 @@ Let's take the example array [64, 25, 12, 22, 11] and walk through the sorting p
 **4.**`i = 3, minIndex = 3`
 - Inner loop: j = 4, array[4] = 11 is smaller than array[3] = 64, so minIndex = 4.
 - Swap: array[3] = 11, array[4] = 64
-- Array: [25, 12, 22, 11, 64]
+- Array: `[25, 12, 22, 11, 64]`
 
 **5.** `i = 4`, no more iterations needed, as the last element is already in its correct position.
 
