@@ -33,7 +33,7 @@ We use a for loop to iterate over the letters array. The loop will run letters.l
 Inside the loop, we do the following:
 
 - `letters[i]` accesses the current letter in the array.
-- `charCodeAt(0)`1` returns the Unicode code point of the first character of the letter string (e.g., 'a' becomes 97).
+- `charCodeAt(0)` returns the Unicode code point of the first character of the letter string (e.g., 'a' becomes 97).
 - We subtract 96 from the code point to get a value between 1 and 26, which corresponds to the alphabetical order of the letters (a=1, b=2, ..., z=26).
 - We add this value to the `sum` variable.
 
